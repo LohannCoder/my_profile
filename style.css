@@ -1,0 +1,133 @@
+body {
+background-color: #4d7298;
+color: #4d7298;
+font-family:'Anton', sans-serif;
+}
+
+h1 {
+	color: #006d77;
+	font-family: 'Anton';
+}
+h2 {
+	color: #1c2541;
+	font-family: 'Anton';
+}
+
+img {
+	object-fit: cover;
+	width: 150px;
+	height: 150px;
+	border-radius:75px;	
+}
+.container{
+width: 750px;
+margin: 0 auto;
+}
+
+.presentation {
+background-color: #edf6f9;
+width:auto;
+height: auto;
+margin:80px;
+border-radius: 10px;
+padding: 60px;
+box-shadow: 0px 10px 30px rgba( 0,0,0,0.3);
+text-align: center;
+}
+
+.dvlp {
+background-color: #edf6f9;
+width:auto;
+height: auto;
+margin:80px;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 0px 10px 30px rgba( 0,0,0,0.1);
+text-align: center;
+}
+.relation {
+background-color: #edf6f9;
+width:auto;
+height: auto;
+margin:80px;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 0px 10px 30px rgba( 0,0,0,0.3);
+text-align: center;
+}
+
+.adapt {
+background-color: #edf6f9;
+width:auto;
+height: auto;
+margin:80px;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 0px 10px 30px rgba( 0,0,0,0.3);
+text-align: center;
+}
+
+.follow {
+background-color: #edf6f9;
+width:auto;
+height: auto;
+margin:80px;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 0px 10px 30px rgba( 0,0,0,0.3);
+text-align: center;
+}
+
+.bouton {
+background-color: #1c2541;
+width:150px;
+height: 20px;
+margin:10px auto;
+border-radius: 80px;
+padding: 5px 8px;
+box-shadow: 0px 10px 10px rgba( 0,0,0,0.1);
+text-align: center;
+transition: transform 0.5s;
+}
+
+.bouton:hover {
+cursor: pointer;
+width: 160px;
+background-color: #4d7298;
+transform:scale(1.2);
+}
+
+.bouton a {
+color: white;
+text-decoration: none;
+}
+
+.busidev { 
+color: #1c2541;
+}
+
+li {
+list-style: none;
+}
+
+@media (max-width: 768px) {
+  .container{ 
+width: 500px;
+   }
+}
+.logo_list a {
+font-size: 30px;
+width:150px;
+height: 20px;
+color: rgb(128,128,128);
+transition: transform 0.5s;
+}	
+.logo_list {
+display: flex;
+justify-content: space-around;	
+}
+.logo_list a:hover {
+cursor: pointer;
+color: rgb(0,0,0);
+transform:scale(1.2);
+}
